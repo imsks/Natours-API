@@ -1,0 +1,22 @@
+{
+  "name": "natours-api",
+  "version": "1.0.0",
+  "description": "Buidling Natours API in Node JS and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imsks/Natours-API.git"
+  },
+  "author": "Sachin Kr. Shukla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imsks/Natours-API/issues"
+  },
+  "homepage": "https://github.com/imsks/Natours-API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
