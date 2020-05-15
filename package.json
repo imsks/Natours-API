@@ -1,29 +1,22 @@
 {
-  "name": "natours-api",
+  "name": "natours",
   "version": "1.0.0",
-  "description": "Buidling Natours API in Node JS and Express",
+  "description": "Learning node, express and mongoDB",
   "main": "app.js",
   "scripts": {
     "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/imsks/Natours-API.git"
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
   },
   "author": "Sachin Kr. Shukla",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/imsks/Natours-API/issues"
-  },
-  "homepage": "https://github.com/imsks/Natours-API#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react-hooks": "^3.0.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.9.10",
-    "morgan": "^1.10.0"
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "slugify": "^1.3.4",
+    "validator": "^10.11.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
